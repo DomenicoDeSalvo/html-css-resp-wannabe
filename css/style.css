@@ -131,24 +131,16 @@ img {
     .row{
         flex-wrap: wrap;
     }
+
+    .container{
+        width: 100%;
+    }
 }
 
-@media screen and (max-width:767px) {
-    .container{
-        max-width: 100%;
-    }
-    
-}
+
 
 @media (max-width: 479px) {
-    .row{
-        flex-direction: column;
-    }
-
-    .container{
-        max-width: 100%;
-    }
-
+  
     .steps{
         margin: 0;
         
